@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CodePractice_Arrays_AdamIshak
 {
@@ -24,8 +25,11 @@ namespace CodePractice_Arrays_AdamIshak
             double[] doubles = new double[] { 5.2, 7.9, 10.0, 4, 9.7 };
             Console.WriteLine(doubles);
 
-           
-           
+            foreach (var num in doubles) ;
+
+            Console.WriteLine("var num in doubles");
+
+            
 
 
         }
